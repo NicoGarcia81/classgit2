@@ -13,6 +13,16 @@ h1{
     max-width: 650px;
     margin: 15px auto;
 }
+.hola-mundo:hover{
+    background-color: blueviolet;
+    transition: .3s;
+
+}
+h1:hover{
+    color: coral;
+    transform: skew(-15deg);
+    transition: .3s;
+}
 .flex-index{
     display: flex;
     flex-wrap: wrap;
